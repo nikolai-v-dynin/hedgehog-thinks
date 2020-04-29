@@ -1,5 +1,17 @@
 [
-  "A1-5": 330,
-  "A2-4": 350,
-  "A3-3": 310
+  {"alloy": "A1-5", "sigmaB": 330, "sigmaT": 231, "delta": 6.8},
+  {"alloy": "A1-5", "sigmaB": 332, "sigmaT": 233, "delta": 7.5},
+  {"alloy": "A1-5", "sigmaB": 335, "sigmaT": 234, "delta": 8.1},
+  {"alloy": "A1-5", "sigmaB": 331, "sigmaT": 237, "delta": 5.8},
+  {"alloy": "A1-5", "sigmaB": 330, "sigmaT": 230, "delta": 6.1},
+  {"alloy": "A2-4", "sigmaB": 355, "sigmaT": 275, "delta": 5.4},
+  {"alloy": "A2-4", "sigmaB": 351, "sigmaT": 276, "delta": 4.3},
+  {"alloy": "A2-4", "sigmaB": 348, "sigmaT": 277, "delta": 5.1},
+  {"alloy": "A2-4", "sigmaB": 353, "sigmaT": 274, "delta": 5.4},
+  {"alloy": "A2-4", "sigmaB": 350, "sigmaT": 280, "delta": 5.8},
+  {"alloy": "A3-3", "sigmaB": 320, "sigmaT": 210, "delta": 7.8},
+  {"alloy": "A3-3", "sigmaB": 311, "sigmaT": 213, "delta": 8.8},
+  {"alloy": "A3-3", "sigmaB": 316, "sigmaT": 216, "delta": 8.1},
+  {"alloy": "A3-3", "sigmaB": 325, "sigmaT": 222, "delta": 9.7},
+  {"alloy": "A3-3", "sigmaB": 313, "sigmaT": 231, "delta": 6.9}
 ]
