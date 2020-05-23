@@ -1,17 +1,164 @@
 [
-  {"alloy": "A1-5", "sigmaB": 330, "sigmaT": 231, "delta": 6.8},
-  {"alloy": "A1-5", "sigmaB": 332, "sigmaT": 233, "delta": 7.5},
-  {"alloy": "A1-5", "sigmaB": 335, "sigmaT": 234, "delta": 8.1},
-  {"alloy": "A1-5", "sigmaB": 331, "sigmaT": 237, "delta": 5.8},
-  {"alloy": "A1-5", "sigmaB": 330, "sigmaT": 230, "delta": 6.1},
-  {"alloy": "A2-4", "sigmaB": 355, "sigmaT": 275, "delta": 5.4},
-  {"alloy": "A2-4", "sigmaB": 351, "sigmaT": 276, "delta": 4.3},
-  {"alloy": "A2-4", "sigmaB": 348, "sigmaT": 277, "delta": 5.1},
-  {"alloy": "A2-4", "sigmaB": 353, "sigmaT": 274, "delta": 5.4},
-  {"alloy": "A2-4", "sigmaB": 350, "sigmaT": 280, "delta": 5.8},
-  {"alloy": "A3-3", "sigmaB": 320, "sigmaT": 210, "delta": 7.8},
-  {"alloy": "A3-3", "sigmaB": 311, "sigmaT": 213, "delta": 8.8},
-  {"alloy": "A3-3", "sigmaB": 316, "sigmaT": 216, "delta": 8.1},
-  {"alloy": "A3-3", "sigmaB": 325, "sigmaT": 222, "delta": 9.7},
-  {"alloy": "A3-3", "sigmaB": 313, "sigmaT": 231, "delta": 6.9}
+  {
+    "ref": "dynin2020",
+    "alloy": "AlSi10Cu0.9Mg0.7(Ce,Zr)",
+    "condition": "As-SLMed", 
+    "UTS": 470, "YS": 340, "El.": 4.0
+  },
+  {
+    "ref": "dynin2020",
+    "alloy": "AlSi10Cu0.9Mg0.7(Ce,Zr)",
+    "condition": "annealing-300-3h", 
+    "UTS": 370, "YS": 250, "El.": 8.0
+  },  
+  {
+    "ref": "dynin2020",
+    "alloy": "AlSi10Cu0.9Mg0.7(Ce,Zr)",
+    "condition": "T6", 
+    "UTS": 400, "YS": 335, "El.": 6.0
+  },
+  {
+    "ref": "pozdniakov2018",
+    "alloy": "AlSi11CuMn",
+    "condition": "As-SLMed", 
+    "UTS": 470, "YS": 350, "El.": 1.8
+  },
+  {
+    "ref": "pozdniakov2018",
+    "alloy": "AlSi11CuMn",
+    "condition": "annealing-275-2h", 
+    "UTS": 434, "YS": 242, "El.": 4.4
+  },  
+  {
+    "ref": "pozdniakov2018",
+    "alloy": "AlSi11CuMn",
+    "condition": "T6", 
+    "UTS": 354, "YS": 288, "El.": 5.4
+  },
+  {
+    "ref": "read2015",
+    "alloy": "AlSi10Mg",
+    "condition": "As-SLMed", 
+    "UTS": 375, "YS": 270, "El.": 4.0
+  },
+  {
+    "ref": "kempen2015",
+    "alloy": "AlSi10Mg",
+    "condition": "As-SLMed", 
+    "UTS": 396, "El.": 3.5
+  }, 
+  {
+    "ref": "wei2017",
+    "alloy": "AlSi10Mg",
+    "condition": "As-SLMed", 
+    "UTS": 360, "El.": 6.0
+  }, 
+  {
+    "ref": "liw2016",
+    "alloy": "AlSi10Mg",
+    "condition": "As-SLMed", 
+    "UTS": 434, "YS": 322, "El.": 5.3
+  },
+  {
+    "ref": "liw2016",
+    "alloy": "AlSi10Mg",
+    "condition": "solution-450", 
+    "UTS": 282, "YS": 196, "El.": 13.4
+  },
+  {
+    "ref": "liw2016",
+    "alloy": "AlSi10Mg",
+    "condition": "solution-550", 
+    "UTS": 168, "YS": 90, "El.": 23.7
+  },
+  {
+    "ref": "liw2016",
+    "alloy": "AlSi10Mg",
+    "condition": "T6", 
+    "UTS": 187, "El.": 19.5
+  },
+  {
+    "ref": "aboulkhair2016",
+    "alloy": "AlSi10Mg",
+    "condition": "As-SLMed", 
+    "UTS": 333, "YS": 268, "El.": 1.4
+  },
+  {
+    "ref": "aboulkhair2016",
+    "alloy": "AlSi10Mg",
+    "condition": "T6", 
+    "UTS": 292, "YS": 239, "El.": 3.9
+  },
+  {
+    "ref": "wang2017",
+    "alloy": "AlSi10Mg",
+    "condition": "As-SLMed", 
+    "UTS": 391, "YS": 311, "El.": 7.2
+  },
+  {
+    "ref": "wang2017",
+    "alloy": "AlSi10Mg",
+    "condition": "As-SLMed", 
+    "UTS": 455, "YS": 300, "El.": 5.4
+  },
+  {
+    "ref": "fousová2018",
+    "alloy": "AlSi10Mg",
+    "condition": "As-SLMed", 
+    "UTS": 377, "YS": 255, "El.": 1.2
+  },
+  {
+    "ref": "fousová2018",
+    "alloy": "AlSi10Mg",
+    "condition": "annealing", 
+    "UTS": 256, "YS": 158, "El.": 9.9
+  },
+  {
+    "ref": "fousová2018",
+    "alloy": "AlSi10Mg",
+    "condition": "T6", 
+    "UTS": 284, "YS": 210, "El.": 4.9
+  },
+  {
+    "ref": "lix2018",
+    "alloy": "AlSi12",
+    "condition": "solution", 
+    "UTS": 190, "YS": 110, "El.": 25.0
+  },
+  {
+    "ref": "prashanth2014",
+    "alloy": "AlSi12",
+    "condition": "As-SLMed", 
+    "UTS": 380, "YS": 260, "El.": 3.0
+  },
+  {
+    "ref": "prashanth2014",
+    "alloy": "AlSi12",
+    "condition": "annealing", 
+    "UTS": 140, "YS": 95, "El.": 15.0
+  },
+  {
+    "ref": "prashanth2014",
+    "alloy": "AlSi9Mg",
+    "condition": "As-SLMed", 
+    "UTS": 379, "YS": 328, "El.": 8.1
+  },
+  {
+    "ref": "kimura2016",
+    "alloy": "AlSi7Mg0.3",
+    "condition": "As-SLMed", 
+    "UTS": 400, "YS": 200, "El.": 15.0
+  },
+  {
+    "ref": "bai2018",
+    "alloy": "AlSiMg0.75",
+    "condition": "As-SLMed", 
+    "UTS": 427.7, "YS": 354.9, "El.": 2.54
+  },
+  {
+    "ref": "bai2018",
+    "alloy": "AlSiMg0.75",
+    "condition": "annealing", 
+    "UTS": 360.2, "YS": 275.4, "El.": 4.57
+  }
 ]
