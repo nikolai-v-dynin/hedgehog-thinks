@@ -1,19 +1,19 @@
 [
   {
     "ref": "dynin2020",
-    "alloy": "AlSi10Cu0.9Mg0.7(Ce,Zr)",
+    "alloy": "AlSi10CuMg(Ce,Zr)",
     "condition": "As-SLMed", 
     "UTS": 470, "YS": 340, "El": 4.0
   },
   {
     "ref": "dynin2020",
-    "alloy": "AlSi10Cu0.9Mg0.7(Ce,Zr)",
-    "condition": "annealing-300-3h", 
+    "alloy": "AlSi10CuMg(Ce,Zr)",
+    "condition": "Annealing", 
     "UTS": 370, "YS": 250, "El": 8.0
   },  
   {
     "ref": "dynin2020",
-    "alloy": "AlSi10Cu0.9Mg0.7(Ce,Zr)",
+    "alloy": "AlSi10CuMg(Ce,Zr)",
     "condition": "T6", 
     "UTS": 400, "YS": 335, "El": 6.0
   },
@@ -26,7 +26,7 @@
   {
     "ref": "pozdniakov2018",
     "alloy": "AlSi11CuMn",
-    "condition": "annealing-275-2h", 
+    "condition": "Annealing", 
     "UTS": 434, "YS": 242, "El": 4.4
   },  
   {
@@ -62,13 +62,13 @@
   {
     "ref": "liw2016",
     "alloy": "AlSi10Mg",
-    "condition": "solution-450", 
+    "condition": "Solution", 
     "UTS": 282, "YS": 196, "El": 13.4
   },
   {
     "ref": "liw2016",
     "alloy": "AlSi10Mg",
-    "condition": "solution-550", 
+    "condition": "Solution", 
     "UTS": 168, "YS": 90, "El": 23.7
   },
   {
@@ -110,7 +110,7 @@
   {
     "ref": "fousová2018",
     "alloy": "AlSi10Mg",
-    "condition": "annealing", 
+    "condition": "Annealing", 
     "UTS": 256, "YS": 158, "El": 9.9
   },
   {
@@ -122,7 +122,7 @@
   {
     "ref": "lix2018",
     "alloy": "AlSi12",
-    "condition": "solution", 
+    "condition": "Solution", 
     "UTS": 190, "YS": 110, "El": 25.0
   },
   {
@@ -134,7 +134,7 @@
   {
     "ref": "prashanth2014",
     "alloy": "AlSi12",
-    "condition": "annealing", 
+    "condition": "Annealing", 
     "UTS": 140, "YS": 95, "El": 15.0
   },
   {
@@ -158,7 +158,7 @@
   {
     "ref": "bai2018",
     "alloy": "AlSiMg0.75",
-    "condition": "annealing", 
+    "condition": "Annealing", 
     "UTS": 360.2, "YS": 275.4, "El": 4.57
   }
 ]
